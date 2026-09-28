@@ -537,25 +537,25 @@
             </div>
 
 
-            <form id="reservationForm">
+            <form action="https://formspree.io/f/xvkgdrpk" method="POST">
 
                 <div class="form-row">
 
-                    <input type="text" placeholder="Your name" required>
+                    <input type="text" name="name" placeholder="Your name" required>
 
-                    <input type="email" placeholder="Email address" required>
+                    <input type="email" name="email" placeholder="Email address" required>
 
                 </div>
 
                 <div class="form-row">
 
-                    <input type="date" required>
+                    <input type="date" name="date" required>
 
-                    <input type="time" required>
+                    <input type="time" name="time" required>
 
                 </div>
 
-                <select required>
+                <select name="guest" required>
 
                     <option value="">Number of guests</option>
                     <option>1 Guest</option>

@@ -33,15 +33,7 @@ navLinks.forEach(link => {
 // RESERVATION FORM
 // =========================
 
-const reservationForm =
-    document.getElementById("reservationForm");
 
-reservationForm.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
-    alert(
-        "Thank you! Your reservation request has been received."
     );
 
     reservationForm.reset();

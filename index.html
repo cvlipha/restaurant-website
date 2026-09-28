@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EMBER | Modern Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <a href="#" class="logo">EMBER<span>.</span></a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#reservation" class="nav-button">Book a Table</a>
+
+        <button class="menu-button" id="menuButton">
+            <i data-lucide="menu"></i>
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="eyebrow">WELCOME TO EMBER</p>
+
+            <h1>
+                Food that
+                <span>feels like home.</span>
+            </h1>
+
+            <p class="hero-text">
+                Fresh ingredients, bold flavors and unforgettable moments.
+                Experience modern dining made with passion.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="primary-button">
+                    Explore Menu
+                    <i data-lucide="arrow-right"></i>
+                </a>
+
+                <a href="#reservation" class="secondary-button">
+                    Reserve a Table
+                </a>
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <span>SCROLL</span>
+            <i data-lucide="arrow-down"></i>
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <div class="feature">
+            <i data-lucide="chef-hat"></i>
+
+            <div>
+                <h3>Expert Chefs</h3>
+                <p>Crafted by passionate professionals.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i data-lucide="leaf"></i>
+
+            <div>
+                <h3>Fresh Ingredients</h3>
+                <p>Locally sourced whenever possible.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i data-lucide="heart"></i>
+
+            <div>
+                <h3>Made With Love</h3>
+                <p>Every plate tells a story.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+
+    <section class="menu-section" id="menu">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">OUR MENU</p>
+
+            <h2>Made to <span>be remembered.</span></h2>
+
+            <p>
+                A selection of our most loved dishes,
+                prepared fresh every day.
+            </p>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+            <!-- FOOD 1 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80"
+                    alt="Pepperoni pizza">
+
+                    <span class="popular">POPULAR</span>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Ember Pizza</h3>
+
+                        <span>₦12,500</span>
+
+                    </div>
+
+                    <p>
+                        Stone-baked pizza, mozzarella, tomato,
+                        pepperoni and fresh basil.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 2 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80"
+                    alt="Healthy salad">
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Garden Bowl</h3>
+
+                        <span>₦8,500</span>
+
+                    </div>
+
+                    <p>
+                        Fresh greens, avocado, tomatoes,
+                        roasted vegetables and house dressing.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 3 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"
+                    alt="Burger">
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Ember Burger</h3>
+
+                        <span>₦10,000</span>
+
+                    </div>
+
+                    <p>
+                        Juicy beef patty, cheddar cheese,
+                        caramelized onions and special sauce.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 4 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80"
+                    alt="Pasta">
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Creamy Pasta</h3>
+
+                        <span>₦11,000</span>
+
+                    </div>
+
+                    <p>
+                        Handmade pasta, parmesan,
+                        cream, herbs and roasted garlic.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 5 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80"
+                    alt="Pasta dish">
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Truffle Pasta</h3>
+
+                        <span>₦14,000</span>
+
+                    </div>
+
+                    <p>
+                        Creamy truffle sauce, parmesan,
+                        mushrooms and fresh herbs.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 6 -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80"
+                    alt="Dessert">
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title">
+
+                        <h3>Sweet Finish</h3>
+
+                        <span>₦6,000</span>
+
+                    </div>
+
+                    <p>
+                        Warm dessert, vanilla cream,
+                        berries and chocolate crumble.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="center-button">
+
+            <a href="#contact" class="outline-button">
+                View Full Menu
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+            alt="Restaurant interior">
+
+        </div>
+
+        <div class="about-content">
+
+            <p class="eyebrow">OUR STORY</p>
+
+            <h2>A restaurant built around <span>good food.</span></h2>
+
+            <p>
+                EMBER started with a simple idea: create a place where
+                incredible food and unforgettable experiences meet.
+            </p>
+
+            <p>
+                From our kitchen to your table, we focus on quality
+                ingredients, honest cooking and an atmosphere that
+                makes you want to stay a little longer.
+            </p>
+
+            <div class="stats">
+
+                <div>
+                    <strong>8+</strong>
+                    <span>Years Experience</span>
+                </div>
+
+                <div>
+                    <strong>25k+</strong>
+                    <span>Happy Guests</span>
+                </div>
+
+                <div>
+                    <strong>40+</strong>
+                    <span>Dishes</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SPECIAL -->
+
+    <section class="special">
+
+        <div class="special-content">
+
+            <p class="eyebrow">CHEF'S SPECIAL</p>
+
+            <h2>Tonight's<br><span>special.</span></h2>
+
+            <p>
+                Grilled ribeye steak served with roasted potatoes,
+                seasonal vegetables and our signature pepper sauce.
+            </p>
+
+            <div class="special-price">
+                <span>₦28,000</span>
+                <small>Limited availability</small>
+            </div>
+
+            <a href="#reservation" class="primary-button">
+                Reserve Now
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+
+    <section class="reviews" id="reviews">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">WHAT PEOPLE SAY</p>
+
+            <h2>Loved by our <span>guests.</span></h2>
+
+        </div>
+
+
+        <div class="review-grid">
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "The food was incredible. Everything tasted fresh
+                    and the atmosphere was beautiful."
+                </p>
+
+                <div class="reviewer">
+                    <div class="avatar">A</div>
+
+                    <div>
+                        <strong>Amara O.</strong>
+                        <span>Google Review</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Honestly one of the best restaurant experiences
+                    I've had. The burger is insane."
+                </p>
+
+                <div class="reviewer">
+
+                    <div class="avatar">D</div>
+
+                    <div>
+                        <strong>Daniel K.</strong>
+                        <span>Google Review</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Perfect place for dinner. Great food, great
+                    service and a really beautiful interior."
+                </p>
+
+                <div class="reviewer">
+
+                    <div class="avatar">S</div>
+
+                    <div>
+                        <strong>Sophia M.</strong>
+                        <span>Google Review</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESERVATION -->
+
+    <section class="reservation" id="reservation">
+
+        <div class="reservation-box">
+
+            <div class="reservation-text">
+
+                <p class="eyebrow">RESERVATIONS</p>
+
+                <h2>Your table is <span>waiting.</span></h2>
+
+                <p>
+                    Planning a date night, dinner with friends,
+                    or a special celebration?
+                </p>
+
+            </div>
+
+
+            <form id="reservationForm">
+
+                <div class="form-row">
+
+                    <input type="text" placeholder="Your name" required>
+
+                    <input type="email" placeholder="Email address" required>
+
+                </div>
+
+                <div class="form-row">
+
+                    <input type="date" required>
+
+                    <input type="time" required>
+
+                </div>
+
+                <select required>
+
+                    <option value="">Number of guests</option>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+
+                </select>
+
+                <button type="submit" class="primary-button">
+                    Reserve Table
+                    <i data-lucide="arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <div>
+
+            <p class="eyebrow">COME VISIT</p>
+
+            <h2>Let's eat.</h2>
+
+            <p>
+                24 Ahmadu Bello Way,<br>
+                Kaduna, Nigeria
+            </p>
+
+        </div>
+
+
+        <div class="contact-details">
+
+            <div>
+                <i data-lucide="clock"></i>
+
+                <div>
+                    <strong>Opening Hours</strong>
+                    <p>Mon – Sun: 11:00 AM – 11:00 PM</p>
+                </div>
+            </div>
+
+            <div>
+                <i data-lucide="phone"></i>
+
+                <div>
+                    <strong>Call Us</strong>
+                    <p>+234 800 000 0000</p>
+                </div>
+            </div>
+
+            <div>
+                <i data-lucide="mail"></i>
+
+                <div>
+                    <strong>Email</strong>
+                    <p>hello@emberrestaurant.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            EMBER<span>.</span>
+        </div>
+
+        <p>
+            Good food. Good people. Good memories.
+        </p>
+
+        <div class="socials">
+
+            <a href="#">
+                <i data-lucide="instagram"></i>
+            </a>
+
+            <a href="#">
+                <i data-lucide="facebook"></i>
+            </a>
+
+            <a href="#">
+                <i data-lucide="twitter"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 EMBER Restaurant. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
